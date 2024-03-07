@@ -12,7 +12,7 @@ def create_NO2_tabel(dataset):
     return NO2_tabel
 
 #Membaca dataset
-dataset = pd.read_csv('data/cleaning.csv')
+dataset = pd.read_csv('https://raw.githubusercontent.com/divanm/dashboard-dicoding/master/data/cleaning.csv')
 
 #Membuat bagian pertama dashboard
 st.title("Air Quality Dashboard")
